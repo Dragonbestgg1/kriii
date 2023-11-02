@@ -10,5 +10,8 @@
     <div class="title">
         <h1>Blogs</h1>
     </div>
+    <div class="raksti">
+        <p>Nav labi. </p>
+    </div>
 </body>
 </html>

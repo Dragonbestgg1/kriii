@@ -1,18 +1,32 @@
-html{
+html {
     display: flex;
     width: 100%;
     height: 100%;
-}
-body{
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-title{
+    background-color: #f5f;
+    color: aqua;
+  }
+  
+  body {
     display: flex;
     width: 100%;
     height: 100%;
     flex-direction: column;
+  }
+  
+  .title {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-}
+  }
+  
+  .raksti {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }

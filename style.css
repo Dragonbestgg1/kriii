@@ -2,7 +2,8 @@ html {
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: #f5f;
+    background: linear-gradient(#f5f, purple);
+    background-attachment: fixed;
     color: aqua;
   }
   
@@ -42,11 +43,11 @@ html {
   }
   
   ::-webkit-scrollbar-track {
-    background: linear-gradient(red, blue); /* Track color */
+    background: linear-gradient(#f5f, purple); /* Track color */
   }
   
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(blue, red); /* Thumb color */
+    background: linear-gradient(purple, #f5f); /* Thumb color */
     border-radius: 3px; /* Rounded corners for the thumb */
   }
   
